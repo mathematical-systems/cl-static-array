@@ -1,0 +1,21 @@
+-*- mode: org -*-
+
+* Purpose
+
+CL-static-array is to extend CL implementations to make foreign arrays
+looks native to lisp arrays. So for code that used standard CL
+functions and array operations, should work without any changes.
+
+The purpose for using foreign arrays are:
+
+- can operate on memory mapped files directly
+- able to define REAL and efficient displaced arrays
+- safer when used in foreign code.
+
+Things need to be worried about:
+
+- auto memory management
+- performance compared to ordinary arrays (should be as efficient)
+- portability
+
+
