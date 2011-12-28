@@ -19,3 +19,5 @@ Things need to be worried about:
 - portability
 
 
+NOTE: only special and non-adjustable arrays are sensible in foreign
+arrays.

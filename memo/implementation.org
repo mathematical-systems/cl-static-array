@@ -1,0 +1,14 @@
+- defun need to be shadowed for optimizing declarations.
+- maybe defmethod too?
+
+- the best way to incorporate with CL's type system?
+
+- I think we should accept two types of pointers: integer and
+  implementation dependent pointer object.
+
+- complex single-float and complex double-float?
+
+- auto free
+
+- (typep sa '(static-array double-float (*)))
+
